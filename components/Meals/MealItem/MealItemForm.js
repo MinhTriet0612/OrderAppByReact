@@ -1,8 +1,10 @@
 import classes from './MealItemForm.module.css'
 import Input from '../../UI/Input';
+import { useState } from 'react';
 const MealItemForm = props => {
     return (
-        <form className={classes.form}>
+
+        <form className={classes.form} >
             <Input label='Amount'
                 input={{
                     id: 'amount_' + props.id,
@@ -12,7 +14,7 @@ const MealItemForm = props => {
                     defaultValue: 1,
                 }} />
             <button>+ Add</button>
-        </form>
+        </form >
     )
 }
 
