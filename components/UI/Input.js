@@ -8,5 +8,3 @@ const Input = React.forwardRef(function Input(props, ref) {
     // nguyen minh triet
 });
 export default Input;
-
-
